@@ -1,0 +1,292 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/Users/kylearchuleta/Downloads/R-1417141-1452704996-7697.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    transition: transform 0.5s ease;
+    /* Smooth transition for the animation */
+    display: inline-block;
+    /* Necessary for the transform to work correctly */
+    transform-origin: left;
+    /* The transformation pivots from the left */
+}
+
+h1:hover {
+    transform: perspective(500px) rotateY(30deg);
+    /* Increase the rotation angle for a wider opening */
+}
+
+
+h2 {
+    font-size: 36px;
+    /* Existing font size */
+    color: white;
+    /* Existing text color */
+    margin-bottom: 30px;
+    /* Existing bottom margin */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    /* Existing text shadow */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the scaling effect */
+}
+
+h2:hover {
+    transform: scale(1.1);
+    /* Slightly enlarges the text on hover */
+}
+
+
+
+
+
+
+.song {
+    background: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent black background for readability */
+    backdrop-filter: blur(5px);
+    /* Blur effect for the background */
+    border-radius: 10px;
+    /* Rounded corners for aesthetic */
+    padding: 10px;
+    /* Padding inside the song containers */
+    margin: 10px auto;
+    /* Centering the song containers with automatic horizontal margins */
+    display: block;
+    /* Block display for the containers */
+    max-width: 300px;
+    /* Half the previous width to make titles and audio less wide */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Optional: shadow for depth */
+}
+
+.song h3 {
+    color: #c1b311;
+    /* Gold color for song titles */
+    margin: 0 0 10px 0;
+    /* Space below the title for the audio player */
+}
+
+audio {
+    display: block;
+    /* Audio player to take the full width of the container */
+    width: 100%;
+    /* Audio player to take the full width of the container */
+    margin-top: 10px;
+    /* Space above the audio player */
+}
+
+
+
+footer {
+    margin-top: 50px;
+    color: grey;
+}
+
+
+.break-on-through {
+    color: #c1b311;
+    /* Gold color for the specific song title */
+    transition: all 0.3s ease;
+    /* Smooth transition for effects */
+}
+
+.break-on-through:hover {
+    color: white;
+    /* Change color on hover */
+    letter-spacing: 3px;
+    /* Increase letter spacing */
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+    /* Add a glow effect */
+    transform: scale(1.05);
+    /* Slightly increase size */
+}
+
+.looked-at-you {
+    color: #c1b311;
+    /* Gold color for this specific song title */
+    transition: all 0.3s ease;
+    /* Smooth transition */
+}
+
+.looked-at-you:hover {
+    color: transparent;
+    /* Make text transparent on hover */
+    letter-spacing: 8px;
+    /* Increase letter spacing */
+    text-shadow:
+        10px 0px 0px white,
+        /* Left eye */
+        20px 0px 0px white;
+    /* Right eye */
+}
+
+
+.soul-kitchen {
+    color: #c1b311;
+    /* Gold color for this specific song title */
+    transition: transform 0.5s ease;
+    /* Smooth transition for the rotation */
+    display: inline-block;
+    /* Required for the transform to work correctly */
+}
+
+.soul-kitchen:hover {
+    transform: rotate(360deg);
+    /* Complete a full 360-degree rotation */
+}
+
+.crystal-ship {
+    color: #c1b311;
+    /* Gold color for this specific song title */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the transform effect */
+    display: inline-block;
+    /* Required for the transform */
+}
+
+.crystal-ship:hover {
+    transform: scale(0.2);
+    /* Significantly decrease the size */
+}
+
+
+
+
+.twentieth-century-fox {
+    color: #c1b311;
+    /* Gold color for this specific song title */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the effect */
+    display: inline-block;
+    /* Required for the transform */
+}
+
+.twentieth-century-fox:hover {
+    transform: scale(1.2) translateY(-10px);
+    /* Enlarge and move up */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    /* Optional: Add shadow for more depth */
+}
+
+
+.light-my-fire {
+    color: #c1b311;
+    /* Initial color for this specific song title */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    /* Smooth transition for color and text-shadow */
+}
+
+.light-my-fire:hover {
+    color: #ff4500;
+    /* Change to a fiery color */
+    text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff8c00;
+    /* Glow effect to simulate fire */
+}
+
+.alabama-song {
+    color: #c1b311;
+    /* Initial color for this specific song title */
+    transition: transform 0.5s ease;
+    /* Smooth transition for the transform effect */
+    display: inline-block;
+    /* Required for the transform */
+}
+
+.alabama-song:hover {
+    transform: scale(1.3) translateY(-50px);
+    /* Scale up and move up */
+}
+
+.back-door-man {
+    color: #c1b311;
+    /* Gold color for this specific song title */
+    transition: transform 0.5s ease;
+    /* Smooth transition for the swinging effect */
+    display: inline-block;
+    /* Required for the transform */
+    transform-origin: left;
+    /* Set the pivot point to the left */
+}
+
+.back-door-man:hover {
+    transform: rotateY(60deg);
+    /* Rotate the text as if swinging open */
+}
+
+.end-of-the-night {
+    color: #c1b311;
+    /* Initial color for this specific song title */
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+    /* Smooth transition for effects */
+}
+
+.end-of-the-night:hover {
+    color: #0a0a5b;
+    /* Dark blue, representing the night sky */
+    text-shadow: 0 0 10px #0a0a5b, 0 0 20px #0a0a5b;
+    /* Soft glow effect to simulate stars or moonlight */
+}
+
+@keyframes dodge {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-20px);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    75% {
+        transform: translateX(-10px);
+    }
+}
+
+.take-it-as-it-comes {
+    color: #c1b311;
+    /* Initial color for this specific song title */
+    transition: transform 0.3s ease;
+    /* Smooth transition */
+    display: inline-block;
+    /* Required for the transform */
+}
+
+.take-it-as-it-comes:hover {
+    animation: dodge 1s ease infinite;
+    /* Apply the dodge animation */
+}
+
+.the-end {
+    color: #c1b311;
+    /* Initial color for this specific song title */
+    transition: opacity 0.3s ease;
+    /* Smooth opacity transition */
+    display: inline-block;
+    /* Required for the transition */
+}
+
+.the-end:hover {
+    opacity: 0;
+    /* Set opacity to 0 on hover, making it disappear */
+}
