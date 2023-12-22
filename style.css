@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/Users/kylearchuleta/Downloads/R-1417141-1452704996-7697.jpg');
+    background-image: url('The-Doors-Album-Photo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,36 +197,6 @@ footer {
     /* Change to a fiery color */
     text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff8c00;
     /* Glow effect to simulate fire */
-}
-
-.alabama-song {
-    color: #c1b311;
-    /* Initial color for this specific song title */
-    transition: transform 0.5s ease;
-    /* Smooth transition for the transform effect */
-    display: inline-block;
-    /* Required for the transform */
-}
-
-.alabama-song:hover {
-    transform: scale(1.3) translateY(-50px);
-    /* Scale up and move up */
-}
-
-.back-door-man {
-    color: #c1b311;
-    /* Gold color for this specific song title */
-    transition: transform 0.5s ease;
-    /* Smooth transition for the swinging effect */
-    display: inline-block;
-    /* Required for the transform */
-    transform-origin: left;
-    /* Set the pivot point to the left */
-}
-
-.back-door-man:hover {
-    transform: rotateY(60deg);
-    /* Rotate the text as if swinging open */
 }
 
 .end-of-the-night {
